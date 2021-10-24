@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Middle1 from './components/Middle1/Middle1';
 import Middle2 from './components/Middle2/Middle2';
@@ -13,6 +14,7 @@ function App() {
       <Middle1/>
       <Middle2/>
       <Middle3/>
+      <Footer/>
     </div>
   );
 }

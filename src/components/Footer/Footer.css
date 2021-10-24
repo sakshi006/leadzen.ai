@@ -1,0 +1,77 @@
+.footer{
+  display: block;
+  margin: auto ;
+  padding: 1.5rem;
+  background-color: black;
+  color: rgb(209, 202, 202);
+}
+
+.footer-top{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.footer-top .two,.three{
+  line-height: 2rem;
+  text-align: left;
+}
+
+.footer-top .four
+{
+  line-height: 3rem;
+}
+.footer-top .four span{
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.footer-top .four span:hover{
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  transition: 1s all;
+  cursor: pointer;
+
+}
+
+.footer-top ul {
+  
+  list-style-type: none;
+}
+
+
+.footer img{
+    width: 13rem;
+    height: 4rem;
+  }
+
+.footer .footer-top .one .social-icons i{
+    background-color: black;
+    width: 1rem;
+}
+
+
+
+
+.footer-bottom ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  font-size: small;
+}
+
+
+.footer-bottom ul li:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.footer-bottom ul li{
+  color: rgb(209, 202, 202);
+  margin: 0.4rem;
+  padding: 1rem;
+}
