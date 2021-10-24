@@ -1,14 +1,13 @@
 import React from 'react'
+import  Carousel  from './Carousel'
+import "./Middle1.css"
 
 const Middle1 = () => {
     return (
-        <div className="main">
-            <h1>Leadzen.ai Can Help you</h1>
-            <h4>Break your sales record</h4>
-            <div className="text">
-                
+        <div className="">
+           <Carousel/>
             </div>
-        </div>
+        
     )
 }
 

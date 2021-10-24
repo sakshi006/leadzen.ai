@@ -1,0 +1,47 @@
+.main h2{
+    font-size: 39.06px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin: 1rem;
+}
+
+
+.main h4{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin: 0.2rem;
+}
+
+.main span{
+    font-size: 1rem;
+    font-family: Georgia;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-position: normal;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    margin-bottom: 5rem;
+}
+
+.main{
+    margin: auto;
+    max-width: 70%;
+    margin-bottom: 1.5rem;
+    padding:1rem;
+}
+
+.main img{
+    margin: 2rem;
+}
+
+.carousel .slide img{
+    width: 400px;
+        height: 383px;
+}
+
+
+.mid-image{
+    width:2rem
+}
+
