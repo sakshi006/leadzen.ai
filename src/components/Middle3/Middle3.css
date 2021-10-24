@@ -1,0 +1,51 @@
+
+.middle3{
+    margin: 6rem auto;
+    display: block;
+    max-width: 75%;
+}
+
+.middle3 .top,.mid,.bot{
+    margin: 2rem 0rem;
+    padding: 1rem;
+}
+
+.middle3 h2{
+    font-size: 39.06px;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    margin-top: 2.5rem;
+}
+
+.middle3 h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: .5px;
+    padding-bottom: 1rem;
+}
+
+.middle3 .mid-img{
+    width: 60rem;
+    margin-top: 1rem;
+}
+
+.trusted{
+  margin: 1rem;
+  padding: 1rem;
+}
+.trusted h2{
+    margin-bottom: 2rem;
+}
+
+.trusted-img{
+    width: 12rem;
+    height: 10rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.trusted .trusted-right{
+    display: flex;
+    justify-content: flex-end;
+}
