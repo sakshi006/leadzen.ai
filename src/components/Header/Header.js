@@ -4,6 +4,7 @@ import React from 'react'
 
 import "./Header.css"
 import logo from "../../resources/header.png"
+import  Carousel  from './Carousel'
 
 
 
@@ -28,8 +29,8 @@ const Header = () => {
             <img className="header-img" src={logo} alt="header" />
         </div>
         <div className="tail">
-            <h1>From Information to Intelligence</h1>
-       
+            <div id="head">From Information to Intelligence</div>
+            <Carousel/>
         </div>
         </div>
     )
