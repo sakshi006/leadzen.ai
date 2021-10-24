@@ -1,0 +1,33 @@
+.bottom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    margin: 2rem 0rem;
+    height: 36rem;
+}
+
+.half{
+    flex: 1;
+}
+
+.left{
+    background-color: #FEC72E;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.left h1,h4{
+    font-weight: bold;
+}
+
+.right{
+    background-color: #ffecb9;
+}
+
+.right .inside{
+    display: flex;
+    flex-direction: column;
+}

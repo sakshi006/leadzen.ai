@@ -4,6 +4,7 @@
   padding: 1.5rem;
   background-color: black;
   color: rgb(209, 202, 202);
+  font-size: small
 }
 
 .footer-top{
@@ -14,9 +15,23 @@
   margin-bottom: 2rem;
 }
 
+.footer .footer-top .one .social-icons {
+  background-color: white;
+  color: aliceblue;
+}
+
 .footer-top .two,.three{
-  line-height: 2rem;
+  line-height: 3rem;
   text-align: left;
+}
+
+.footer-top li:hover{
+  cursor: pointer;
+  color:#FEC72E ;
+}
+.footer-top span:hover{
+  cursor: pointer;
+  color:#FEC72E ;
 }
 
 .footer-top .four

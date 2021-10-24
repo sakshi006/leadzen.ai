@@ -9,12 +9,12 @@ const Footer = () => {
                 <div className="one">
                     <img src={logo} alt="logo"/>
                     <div className="footer-text">Leadzen.ai is the most intelligent <br/> lead generation tool as it<br/> integrates artificial intelligence <br/>and real-time updates into the <br/>prospecting process.</div>
-                    <div className="social-icons">
+                    {/* <div className="social-icons">
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-linkedin"></i>
                         <i class="fab fa-instagram"></i>
-                    </div>
+                    </div> */}
                     <span>support@leadzen.ai</span>
                 </div>
                 <div className="two">
