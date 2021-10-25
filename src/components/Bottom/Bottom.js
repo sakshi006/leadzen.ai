@@ -4,11 +4,11 @@ import "./Bottom.css"
 const Bottom = () => {
     return (
         <div className="bottom">
-            <div className="half left">
+            <div className="half leftB">
                 <h1>Our Clients Speak</h1>
                 <h4>Here’s what some of our clients have to say about<br/> Leadzen.ai</h4>
             </div>
-            <div className="half right">
+            <div className="half rightB">
                 <div className="inside">
                     <div className="inside-head">
                         <div className="inside-head-left">
