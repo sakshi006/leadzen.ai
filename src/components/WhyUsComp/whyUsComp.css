@@ -1,0 +1,81 @@
+.why-us-comp{
+    margin-top: 7.05rem;
+    display: flex;
+    background-color: #FEC72E;
+    padding: 1rem 1rem;
+    flex: 1;
+}
+
+.why-us-right,.why-us-left{
+    flex: 1;
+}
+
+.why-us-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.why-us-left h1{
+    font-weight: bold;
+}
+
+.why-us-left span{
+    font-weight: bold;
+    margin: auto 0.4rem;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--hover-color);
+    color: white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.why-us-left span:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: white;
+    color: var(--hover-color);
+    border-color: var(--hover-color);
+    animation: pulse 0.8s ease-in infinite;
+  }
+
+.why-us-text
+{
+    text-align: left;
+    font-weight: bold;
+}
+
+.why-us-comp .why-us-right img{
+    width: 38rem;
+}
+
+
+
+.one-stop{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    padding: 1rem;
+    /* font-weight: 700; */
+}
+
+.one-stop img{
+    width: 50rem;
+    height: 30rem;
+    margin: 1rem;
+}
+
+.one-stop h1{
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.one-stop-text span{
+    /* font-size: large; */
+    font-weight: bolder;
+}
+
