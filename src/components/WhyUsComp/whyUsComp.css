@@ -67,8 +67,12 @@
     width: 50rem;
     height: 30rem;
     margin: 1rem;
+    transition: transform .6s; 
 }
 
+.one-stop img:hover{
+    transform: scale(0.9);
+}
 .one-stop h1{
     font-weight: bolder;
     padding: 1rem;
